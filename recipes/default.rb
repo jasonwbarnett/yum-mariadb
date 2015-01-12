@@ -25,7 +25,7 @@
 #
 
 if node['yum']['mariadb']['managed']
-  yum_repository default['yum']['mariadb']['repositoryid'] do
+  yum_repository node['yum']['mariadb']['repositoryid'] do
     baseurl node['yum']['mariadb']['baseurl']
     cost node['yum']['mariadb']['cost']
     description node['yum']['mariadb']['description']

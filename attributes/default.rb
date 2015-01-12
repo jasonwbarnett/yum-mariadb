@@ -17,13 +17,13 @@ else
   case node['platform_version'].to_i
   when 5
     default['yum']['mariadb']['description'] = 'MariaDB 10.0 repository for Enterprise Linux 5 - $basearch'
-    default['yum']['mariadb']['baseurl'] = "http://yum.mariadb.org/10.0/centos6-#{arch}"
+    default['yum']['mariadb']['baseurl'] = "http://yum.mariadb.org/10.0/centos5-#{arch}"
   when 6
     default['yum']['mariadb']['description'] = 'MariaDB 10.0 repository for Enterprise Linux 6 - $basearch'
     default['yum']['mariadb']['baseurl'] = "http://yum.mariadb.org/10.0/centos6-#{arch}"
   when 7
     default['yum']['mariadb']['description'] = 'MariaDB 10.0 repository for Enterprise Linux 7 - $basearch'
-    default['yum']['mariadb']['baseurl'] = "http://yum.mariadb.org/10.0/centos6-amd64"
+    default['yum']['mariadb']['baseurl'] = "http://yum.mariadb.org/10.0/centos7-amd64"
   end
 end
 
