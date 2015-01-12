@@ -1,0 +1,7 @@
+name             'yum-mariadb'
+maintainer       'Mindjet LLC'
+maintainer_email 'cookbooks@mindjet.com'
+license          'MIT'
+description      'Installs/Configures yum-mariadb'
+long_description 'Installs/Configures yum-mariadb'
+version          '0.1.0'
